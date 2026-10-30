@@ -12,8 +12,8 @@ API_ID = int(environ.get("API_ID", "0") or "0")
 API_HASH = environ.get("API_HASH", "")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-OWNER = int(environ.get("OWNER", "7752941299"))
-CREDIT = environ.get("CREDIT", '👨‍💻Rick Johnson')
+OWNER = int(environ.get("OWNER", "8855324761"))
+CREDIT = environ.get("CREDIT", '👨‍💻siya')
 CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/rick007contactbot')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
