@@ -8,11 +8,11 @@ try:
 except ImportError:
     pass
 
-API_ID = int(environ.get("API_ID", "0") or "0")
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "28555159") or "0")
+API_HASH = environ.get("API_HASH", "d586fdf5b365f8820ccfba3321a91cc1")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8678694500:AAFWLrmyNKFPuxbPilli_ZDXCQ2Q0wtYwpo")
 
-OWNER = int(environ.get("OWNER", "8855324761"))
+OWNER = int(environ.get("OWNER", "8784947856"))
 CREDIT = environ.get("CREDIT", '👨‍💻siya')
 CREDIT_LINK = environ.get("CREDIT_LINK", 'https://t.me/rick007contactbot')
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
